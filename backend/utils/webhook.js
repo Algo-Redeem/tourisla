@@ -8,8 +8,7 @@ const createPayMongoWebhook = async () => {
       {
         data: {
           attributes: {
-            // url: "https://tourisla-production.up.railway.app/api/v1/paymongo/webhook", // railway public URL original
-            url: "https://tourisla-production-5c54.up.railway.app/api/v1/paymongo/webhook", // production URL new deploy
+            url: "https://tourisla-production.up.railway.app/api/v1/paymongo/webhook", // railway public URL
             events: ["link.payment.paid"],
           },
         },
